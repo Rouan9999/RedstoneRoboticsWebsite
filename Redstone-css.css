@@ -29,6 +29,7 @@ a:hover {
 .home {
     display: grid;
     height: 100vh;
+    max-height: 790px;
     flex-direction: column;
 }
 
@@ -309,7 +310,7 @@ a:hover {
 .slideshow {
     width: 100%;
     min-height: 571px;
-    max-height: 1200px;
+    max-height: 600px;
 }
 
 #slider {
