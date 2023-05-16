@@ -1706,12 +1706,13 @@ h1 {}
 }
 
 .btn {
-    background: var(--pblue);
+    background: var(--pred);
     text-align: center;
     padding: 15px;
     border-radius: 5px;
     cursor: pointer;
     text-transform: uppercase;
+    color: white;
 }
 
 @media screen and (max-width: 600px) {
