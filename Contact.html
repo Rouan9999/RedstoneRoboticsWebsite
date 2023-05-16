@@ -44,18 +44,19 @@
         <div class="cttitle">
           <h1>Contact Us</h1>
          </div>
-        <div class="contact-form">
+        <form class="contact-form" action="https://formspree.io/f/mayzkpvr"
+        method="POST" >
           <div class="input-fields">
-            <input type="text" class="input" placeholder="Name">
-            <input type="text" class="input" placeholder="Email Address">
-            <input type="text" class="input" placeholder="Phone">
-            <input type="text" class="input" placeholder="Subject">
+            <input type="text" class="input" placeholder="Name" name="name" required>
+            <input type="text" class="input" placeholder="Email Address" name="email" required>
+            <input type="text" class="input" placeholder="Phone" name="phone" required>
+            <input type="text" class="input" placeholder="Subject" name="Subject" required>
           </div>
           <div class="msg">
-            <textarea placeholder="Message"></textarea>
-            <div class="btn">send</div>
+            <textarea placeholder="Message" name="Text" required></textarea>
+            <button class="btn" type="submit">send</button>
           </div>
-        </div>
+        </form>
       </div>
     </main>
     
