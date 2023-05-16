@@ -421,7 +421,7 @@ a:hover {
 
 #slider span:nth-of-type(1) {
     animation-name: fader;
-    animation-delay: 15s;
+    animation-delay: 10s;
     animation-duration: 1s;
     z-index: 20;
 }
