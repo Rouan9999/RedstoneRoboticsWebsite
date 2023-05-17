@@ -553,7 +553,7 @@ a:hover {
 .about-us-container button {
     width: 140px;
     height: 40px;
-    background-color: var(--pblue);
+    background-color: var(--pred);
     border: 1px var(--pblue) solid;
     text-align: center;
     font-size: 1rem;
