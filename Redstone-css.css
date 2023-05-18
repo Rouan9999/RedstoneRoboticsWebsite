@@ -266,10 +266,7 @@ a:hover {
     margin: 20px 0px 0px;
 
 }
-
-.colorred {
-    /* color: var(--pred); */
-}
+ 
 
 .lee-highschool-image {
     width: 65px;
@@ -797,9 +794,7 @@ a:hover {
     border: 1px solid rgb(140, 29, 26);
 }
 
-iframe {
-}
-
+ 
 @media (max-width: 1000px) {
     .first {
         flex-direction: column;
@@ -1004,12 +999,11 @@ iframe {
     color: var(--darblue)
 }
 
-h1 {}
-
+ 
 .sponsorsimg1 {
     width: 200px;
     height: 200px;
-    background-image: url("img/sponcorsimg/hello.jpeg");
+    background-image: url("img/sponcorsimg/widwomenindefence.png");
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1019,7 +1013,7 @@ h1 {}
 .sponsorsimg2 {
     width: 200px;
     height: 200px;
-    background-image: url("img/sponcorsimg/download (3).png");
+    background-image: url("img/sponcorsimg/ncthsga.jpg");
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1029,7 +1023,7 @@ h1 {}
 .sponsorsimg3 {
     width: 200px;
     height: 200px;
-    background-image: url("img/sponcorsimg/Applelogo.png");
+    background-image: url("img/sponcorsimg/thebroadwaygroup.jpeg");
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1039,9 +1033,9 @@ h1 {}
 .sponsorsimg4 {
     width: 250px;
     height: 200px;
-    background-image: url("img/sponcorsimg/images.png");
+    background-image: url("img/sponcorsimg/\ resolution.png");
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     transition: all 300ms ease 0s;
 }
@@ -1049,7 +1043,7 @@ h1 {}
 .sponsorsimg5 {
     width: 200px;
     height: 200px;
-    background-image: url("img/sponcorsimg/redstone.png");
+    background-image: url("img/sponcorsimg/tva.png");
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1521,7 +1515,7 @@ h1 {}
     margin: 5px;
 }
 
-.ourleaderimg1 {
+.ourleaderimg {
     width: 100%;
     height: 300px;
     background-image: url("img/ourleadersimg/Screen Shot 2023-03-15 at 4.41.53 PM.png");
@@ -1530,6 +1524,21 @@ h1 {}
     border: 1px solid black;
     margin-bottom: 15px;
     border-radius: 5px;
+}
+.ourleaderimg1{
+    background-image: url("img/ourleadersimg/Akashsinghal.JPG");
+}
+.ourleaderimg2{
+    background-image: url("img/ourleadersimg/Zadieboyd.JPG");
+}
+.ourleaderimg3{
+    background-image: url("img/ourleadersimg/Bencusack.JPG");
+}
+.ourleaderimg4{
+    background-image: url("img/ourleadersimg/noimageuser.png");
+}
+.ourleaderimg5{
+    background-image: url("img/ourleadersimg/noimageuser.png");
 }
 
 @media (max-width: 1000px) {
@@ -1732,7 +1741,7 @@ h1 {}
 .sponcerimg {
     width: 100%;
     height: 450px;
-    background-image: url("img/sponcorsimg/sponcersimg.jpg");
+    background-image: url("img/ourhistoryimg/image\ \(2\).jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1745,6 +1754,7 @@ h1 {}
     flex-direction: column;
     color: white;
 }
+
 
 .sponcerimg h1 {
     font-size: 75px;
