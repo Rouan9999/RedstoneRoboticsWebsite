@@ -1885,6 +1885,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin: 50px 0px;
+    gap: 30px;
 }
 
 .quipmentcomp img {
