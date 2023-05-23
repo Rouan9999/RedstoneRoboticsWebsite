@@ -1884,12 +1884,18 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 50px 0px;
+    margin: 73px 0px;
     gap: 30px;
+    max-width: 1000px;
+}
+.makecenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quipmentcomp img {
-    width: 250px;
+    width: 200px;
     margin: 0px 20px;
     transition: all 300ms ease 0s;
 }
@@ -1938,7 +1944,7 @@ a:hover {
 
 .mainhistoryh1 {
     font-size: 75px;
-}
+ }
 
 .ourhistoryimg {
     background-image: url("img/ourhistoryimg/image.webp");
@@ -1975,8 +1981,11 @@ a:hover {
     font-size: 30px;
     font-family: var(--pfont2);
     padding: 20px 0px;
-    color: var(--pblue);
-}
+    color: white;
+ }
+ .historyh1{
+    background-color: var(--pred);
+ }
 
 .biggrid {
     grid-template-columns: 1fr 1fr;
@@ -1986,6 +1995,16 @@ a:hover {
     width: 95%;
     max-width: 1200px;
     margin: 0px 0px 50px;
+    gap: 10px;
+}
+.firstgrid{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    justify-self: center;
+    display: grid;
+    width: 95%;
+    max-width: 1200px;
+    /* margin: 0px 0px 50px; */
     gap: 10px;
 }
 
@@ -2195,3 +2214,4 @@ a:hover {
         width: 100%;
     }
 }
+ 
